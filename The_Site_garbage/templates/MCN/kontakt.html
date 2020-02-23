@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+{% load static %}
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="{%static 'CSS/style.css'%}">
+  <link rel="stylesheet" href="{%static 'CSS/kontakt-style.css'%}">
+  <title>Kontakt</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light">
+      <a class="navbar-brand" href="../"><img class="w-75" src="{%static 'Images/logo.png'%}" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../">HOME</a>
+          </li>
+          <!-- Qitu -->
+          <div class="dropdown">
+            <li class="drop nav-item"><a class="nav-link" role="button" href="#" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">OFERTAT</a>
+              <ul class="dropdown dropdown-menu">
+                <li class="nav-item"><a class="dropdown-item" href="../internet">INTERNETI</a></li>
+                <li class="nav-item"><a class="dropdown-item" href="../telefoni">TELEFONI</a>
+                </li>
+              </ul>
+            </li>
+          </div>
+          <li class="nav-item">
+            <a class="nav-link" href="../webdesign">DESIGN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../networking">NETWORKING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../software">SOFTWARE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../trajnime">TRAINIME</a>
+          </li>
+          <li class="nav-item active">
+            <a href="../kontakt" class="nav-link">KONTAKT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section id="map" class="text-center">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.4470140080593!2d19.810089715423736!3d41.32089207927031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135031018592ade3%3A0x9258ac46a6f046ac!2sRruga%20Pjet%C3%ABr%20Bogdani%2034%2C%20Tiran%C3%AB%2C%20Albania!5e0!3m2!1sen!2s!4v1581956444697!5m2!1sen!2s"
+      width="90%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+  </section>
+  <section class="stuff">
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="col-12 shadow46and2 pt-5 mb-5">
+            <h4>Lokacioni</h4>
+            <p>Rruga Pjeter Bogdani,
+              <br> Tirana,
+              <br> Albania
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="col-12 shadow46and2 pt-5 mb-5">
+            <h4>Email &amp; phone</h4>
+            <a href="mailto:shop@mcn.al">shop@mcn.al</a>
+            <br>
+            <a href="tel:+355 69 20 70011">+355 69 20 70011</a>
+            <br>
+            <a href="tel:+355 69 20 70011">+355 69 20 70011</a>
+            <br>
+            <a href="tel:+355 4 535 0001">
+              +355 4 535 0001</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="col-12 shadow46and2 pt-5 mb-5">
+            <h4>Rrjetet sociale</h4>
+            <p class="w-50">Mund te na gjeni edhe ne rrjete sociale</p>
+            <div>
+              <a href="https://www.facebook.com/pages/MC-Networking/390632191014075" target="_blank"><i
+                  class="fab fa-facebook-f icon1"></i></a>
+              <a href="https://twitter.com/MC_Networking" target="_blank"><i class="fab fa-twitter icon3"></i></a>
+              <a href="https://twitter.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="forma">
+    <div class="container">
+      <h2 class="text-center mb-5">Send us message for any <br>kind of help</h2>
+      <form method="post" class="mx-auto">
+        {% csrf_token %}
+        <!-- {{ form.as_p }} -->
+        <div class="form-group">
+          <label for="Emri">Emri dhe Mbiemri *</label>
+          <input name="Emri" type="text" class="form-control" id="Emri" aria-describedby="emailHelp" placeholder="Emri"
+            required>
+        </div>
+        <div class="form-group">
+          <label for="E-mail">E-mail *</label>
+          <input name="E-mail" type="email" class="form-control" id="E-mail" placeholder="E-mail" required>
+        </div>
+        <div class="form-group row">
+          <div class="col-md-6">
+            <label for="subjekti">Subjekti *</label>
+            <input name="subjekti" type="text" class="form-control" id="subjekti">
+          </div>
+          <div class="col-md-6">
+            <label for="kategoria">Kategoria</label>
+            <select class="form-control" id="kategoria" name="kategoria">
+              <option>Suporti Teknik</option>
+              <option>Financa</option>
+              <option selected>Marketingu</option>
+              <option>Programim</option>
+              <option>Web</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Mesazhi</label>
+          <textarea name="message" class="form-control" id="message" cols="30" rows="5"></textarea>
+        </div>
+
+        <button type="submit" class="btn px-4">Send message</button>
+      </form>
+    </div>
+
+  </section>
+  <footer>
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-3 text-center col-sm-6">
+          <img src="{%static 'Images/logo.png'%}" alt="" class="img-fluid">
+          <a href="mailto:helpdesk@mcn.al" class="mt-4">helpdesk@mcn.al</a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div>
+            <h6>SERVISET</h6>
+            <li class="mb-1"><a href="../internet#ofertatinternet">Internet</a></li>
+            <li class="mb-1"><a href="../trajnime#trainim">Trainimet</a></li>
+            <li class="mb-1"><a href="../PDF/TREGUESIT_INTERNET_VITI_2019.pdf" target="_blank">Treguesit
+                Internet</a></li>
+            <li class="mb-1"><a href="../PDF/TREGUESIT_TELEFONIKE_VITI_2019.pdf" target="_blank">Treguesit
+                Telefonike</a></li>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div>
+            <h6>MBI NE</h6>
+            <li class="mb-1"><a href="../#trust">Ekipa</a></li>
+            <li class="mb-1"><a href="../webdesign#portofolio">Portofolio</a></li>
+            <li class="mb-1"><a href="../kontakt#forma">Kontaktoni</a></li>
+            <li class="mb-1">MC NETWORKING SH.P.K, themeluar me
+              23/10/2007</li>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div>
+            <h6>ADDRESA JONE</h6>
+            <li class="mb-1">Rrg Pjeter Bogdani,</li>
+            <li class="mb-1">Tirana,</li>
+            <li class="mb-1">Albania.</li>
+            <div class="icons">
+              <a href="https://www.facebook.com/MCN-get-connected-390632191014075/" target="_blank"><i
+                  class="fab fa-facebook-f p-1"></i></a>
+              <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram p-1"></i></a>
+              <a href="https://twitter.com/MC_Networking" target="_blank"><i class="fab fa-twitter p-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="text-center copyright">&copy;2020 copyrights. All rights reserved <a class="vision"
+          href="https://www.vision-agency.com/">Vision-agency</a> </p>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <script src="{%static 'JavaScript/dropdown.js'%}"></script>
+</body>
+
+</html>

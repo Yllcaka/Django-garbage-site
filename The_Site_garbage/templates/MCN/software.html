@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+{% load static %}
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+  <link rel="stylesheet" href="{%static 'CSS/style.css'%}">
+  <link rel="stylesheet" href="{%static 'CSS/software-style.css'%}">
+  <title>Software</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light">
+      <a class="navbar-brand" href="../"><img class="w-75" src="{%static 'Images/logo.png'%}" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../">HOME</a>
+          </li>
+          <!-- Qitu -->
+          <div class="dropdown">
+            <li class="drop nav-item"><a class="nav-link" role="button" href="#" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">OFERTAT</a>
+              <ul class="dropdown dropdown-menu">
+                <li class="nav-item"><a class="dropdown-item" href="../internet">INTERNETI</a></li>
+                <li class="nav-item"><a class="dropdown-item" href="../telefoni">TELEFONI</a>
+                </li>
+              </ul>
+            </li>
+          </div>
+          <li class="nav-item">
+            <a class="nav-link" href="../webdesign">DESIGN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../networking">NETWORKING</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="../software">SOFTWARE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../trajnime">TRAINIME</a>
+          </li>
+          <li class="nav-item">
+            <a href="../kontakt" class="nav-link">KONTAKT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section>
+    <div class="bgrounded">
+      <h1 class="text-center parallax-text">SOFTWARE</h1>
+    </div>
+
+    <div class="mx-auto text-center mt-5 container">
+      <h3>Microsoft Dynamics&reg; NAV</h3>
+      <p class="w-50 mx-auto mt-3">Vizioni juaj eshte kthyer ne realitet, me nje zgjidhje qe ju jep ju nje kontroll dhe
+        pasqyre te
+        qarte te
+        biznesit tuaj dhe aftesine per te bere zgjedhjet e duhura ne permisimin dhe rritjen e fleksibitetit te biznesit.
+      </p>
+      <img src="{%static 'Images/microsoftdynamics.png'%}" alt="MicrosoftDynamics" class="img-fluid text-center">
+    </div>
+    <div class="row text-center no-gutters">
+      <div class="col-md-6">
+        <img class="img-fluid" src="{%static 'Images/my_finance.png'%}" alt="">
+        <h4>My Finance</h4>
+        <p class="w-75 mx-auto mt-3">I realizuar nga teknologjite me moderne te zhvillimit eshte i pajisur me nje
+          nderfaqje te kendshme per
+          windows qe realizon nje funksionalitet sa me te thjeshte. Manualet ne linje, te integruara me kerkesen,
+          garantojne te mesuaren sa me te shpejte dhe te thjeshte te programit. Te gjitha printimet dhe raportet jane te
+          modifikueshme ne varesi te kerkesave te kompanise. Te dhenat e gjendura neper arkiva munden te nxirren dhe te
+          shrytezohen nga mjetet me te perhapura te produktivitetit individual dhe te raportimit.</p>
+      </div>
+      <div class="col-md-6">
+        <img class="img-fluid" src="{%static 'Images/ums.png'%}" alt="">
+        <h4>UMS</h4>
+        <p class="w-75 mx-auto mt-3">Sistemi UMS nuk eshte vetem nje zgjidhje e re ne treg nga ana teknologjike, por nje
+          sistem menaxhimi i punuar dhe i pershtatur komfort kerkesave te insitucioneve arsimore . Ky sistem sa modern
+          aq edhe i thjeshte ne llogjiken e perdorimit permirson punen dhe organizimin e strukturave administrative te
+          institucioneve arsimore ne vend.Nje pune e strukturuar dhe miremenaxhuar nga stafi sjell produktivitet ne
+          cilesine e nivelit arsimor.</p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="bd-example bd-example-tabs container">
+      <ul class="nav nav-pills mb-3 text-center mx-auto" id="pills-tab" role="tablist">
+        <li class="nav-item mx-auto">
+          <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+            aria-controls="pills-home" aria-selected="false">3COM</a>
+        </li>
+        <li class="nav-item mx-auto">
+          <a class="nav-link active" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+            aria-controls="pills-profile" aria-selected="true">CISCO</a>
+        </li>
+        <li class="nav-item mx-auto">
+          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+            aria-controls="pills-contact" aria-selected="false">HP</a>
+        </li>
+        <li class="nav-item mx-auto">
+          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+            aria-controls="pills-contact" aria-selected="false">DIGIUM ASTERISK</a>
+        </li>
+        <li class="nav-item mx-auto">
+          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+            aria-controls="pills-contact" aria-selected="false">MICROSOFT</a>
+        </li>
+        <li class="nav-item mx-auto">
+          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+            aria-controls="pills-contact" aria-selected="false">FreeBSD</a>
+        </li>
+        <li class="nav-item mx-auto">
+          <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+            aria-controls="pills-contact" aria-selected="false">Red Hat</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade row" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+          <div class="col-md-6">
+            <img src="{%static 'Images/3com.png'%}" alt="" class="img-fluid w-50">
+          </div>
+          <div class="col-md-6">
+            <p>3com IP Telephony including IP Messaging, IP Phones, IP Conferencing, IP Contact Centers
+              and NBX IP
+              Telephony; LAN Switches, Network Interface Cards,and wireless products.</p>
+          </div>
+        </div>
+        <div class="tab-pane fade active show" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+          <p>Ad pariatur nostrud pariatur exercitation ipsum ipsum culpa mollit commodo mollit ex. Aute sunt incididunt
+            amet commodo est sint nisi deserunt pariatur do. Aliquip ex eiusmod voluptate exercitation cillum id
+            incididunt elit sunt. Qui minim sit magna Lorem id et dolore velit Lorem amet exercitation duis deserunt.
+            Anim id labore elit adipisicing ut in id occaecat pariatur ut ullamco ea tempor duis.</p>
+        </div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+          <p>Est quis nulla laborum officia ad nisi ex nostrud culpa Lorem excepteur aliquip dolor aliqua irure ex.
+            Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit laborum veniam eu veniam. Eiusmod minim
+            exercitation fugiat irure ex labore incididunt do fugiat commodo aliquip sit id deserunt reprehenderit
+            aliquip nostrud. Amet ex cupidatat excepteur aute veniam incididunt mollit cupidatat esse irure officia elit
+            do ipsum ullamco Lorem. Ullamco ut ad minim do mollit labore ipsum laboris ipsum commodo sunt tempor enim
+            incididunt. Commodo quis sunt dolore aliquip aute tempor irure magna enim minim reprehenderit. Ullamco
+            consectetur culpa veniam sint cillum aliqua incididunt velit ullamco sunt ullamco quis quis commodo
+            voluptate. Mollit nulla nostrud adipisicing aliqua cupidatat aliqua pariatur mollit voluptate voluptate
+            consequat non.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-3 text-center col-sm-6">
+          <img src="{%static 'Images/logo.png'%}" alt="" class="img-fluid">
+          <a href="mailto:helpdesk@mcn.al" class="mt-4">helpdesk@mcn.al</a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div>
+            <h6>SERVISET</h6>
+            <li class="mb-1"><a href="../internet#ofertatinternet">Internet</a></li>
+            <li class="mb-1"><a href="../trajnime#trainim">Trainimet</a></li>
+            <li class="mb-1"><a href="../internet_viti" target="_blank">Treguesit
+                Internet</a></li>
+            <li class="mb-1"><a href="../telefonike_viti" target="_blank">Treguesit
+                Telefonike</a></li>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div>
+            <h6>MBI NE</h6>
+            <li class="mb-1"><a href="../#trust">Ekipa</a></li>
+            <li class="mb-1"><a href="../webdesign#portofolio">Portofolio</a></li>
+            <li class="mb-1"><a href="../kontakt#forma">Kontaktoni</a></li>
+            <li class="mb-1">MC NETWORKING SH.P.K, themeluar me
+              23/10/2007</li>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div>
+            <h6>ADDRESA JONE</h6>
+            <li class="mb-1">Rrg Pjeter Bogdani,</li>
+            <li class="mb-1">Tirana,</li>
+            <li class="mb-1">Albania.</li>
+            <div class="icons">
+              <a href="https://www.facebook.com/MCN-get-connected-390632191014075/" target="_blank"><i
+                  class="fab fa-facebook-f p-1"></i></a>
+              <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram p-1"></i></a>
+              <a href="https://twitter.com/MC_Networking" target="_blank"><i class="fab fa-twitter p-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="text-center copyright">&copy;2020 copyrights. All rights reserved <a class="vision"
+          href="https://www.vision-agency.com/">Vision-agency</a> </p>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <script src="{%static 'JavaScript/dropdown.js'%}"></script>
+</body>
+
+</html>

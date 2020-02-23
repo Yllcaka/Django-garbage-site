@@ -1,0 +1,54 @@
+#map {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.shadow46and2 {
+    height: 90%;
+    border-bottom: 10px solid rgb(24, 169, 253);
+}
+
+.btn {
+    border: 3px solid rgb(24, 169, 253);
+    color: rgb(24, 169, 253);
+}
+
+.btn:hover {
+    background-color: rgb(24, 169, 253);
+    color: #ffffff;
+}
+
+.shadow46and2 a {
+    color: #131313;
+    transition: 0.3s ease-in-out;
+}
+
+.shadow46and2 a:hover {
+    color: rgb(24, 169, 253);
+}
+
+.stuff a {
+    margin-right: 20px;
+}
+
+input,
+textarea,
+select {
+    font-size: 24px !important;
+    /* color: #131313; */
+}
+
+textarea {
+    resize: none;
+}
+
+form {
+    width: 50%;
+    margin-bottom: 75px;
+}
+
+@media screen and (max-width: 991px) {
+    form {
+        width: 100%;
+    }
+}

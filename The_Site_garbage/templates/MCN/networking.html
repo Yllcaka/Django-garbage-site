@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+{% load static %}
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+  <link rel="stylesheet" href="{%static 'CSS/style.css'%}">
+  <link rel="stylesheet" href="{%static 'CSS/networking-style.css'%}">
+  <title>Networking</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light">
+      <a class="navbar-brand" href="../"><img class="w-75" src="{%static 'Images/logo.png'%}" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../">HOME</a>
+          </li>
+          <!-- Qitu -->
+          <div class="dropdown">
+            <li class="drop nav-item"><a class="nav-link" role="button" href="#" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">OFERTAT</a>
+              <ul class="dropdown dropdown-menu">
+                <li class="nav-item"><a class="dropdown-item" href="../internet">INTERNETI</a></li>
+                <li class="nav-item"><a class="dropdown-item" href="../telefoni">TELEFONI</a>
+                </li>
+              </ul>
+            </li>
+          </div>
+          <li class="nav-item">
+            <a class="nav-link" href="../webdesign">DESIGN</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="../networking">NETWORKING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../software">SOFTWARE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../trajnime">TRAINIME</a>
+          </li>
+          <li class="nav-item">
+            <a href="../kontakt" class="nav-link">KONTAKT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section>
+    <p class="text-center">
+      <a class="btn" data-toggle="collapse" href="#multiCollapse1" role="button" aria-expanded="false"
+        aria-controls="multiCollapse1">WINDOWS ACTIVE DIRECTORY</a>
+      <button class="btn" type="button" data-toggle="collapse" data-target="#multiCollapse2" aria-expanded="false"
+        aria-controls="multiCollapse2">FILE SERVER</button>
+      <button class="btn" type="button" data-toggle="collapse" data-target="#multiCollapse3" aria-expanded="false"
+        aria-controls="multiCollapse3">SHERBIME</button>
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse"
+        aria-expanded="false" aria-controls="multiCollapse1 multiCollapse2">Toggle both elements</button>
+    </p>
+    <div class="row container mx-auto">
+      <div class="col-md-4">
+        <div class="collapse multi-collapse" id="multiCollapse1">
+          <div class="card card-body">
+            <img src="{%static 'Images/activedirectory.png'%}" alt="Windows Active Directory" class="img-fluid">
+            Pergjigja e nje manaxhimi te perdoruesve, kompjuterave dhe komponenteve te rrjetit informatik ku manaxhimi i
+            te gjithe perdoruesve eshte ne menyre te centralizuar dhe ju ndihmon per nje menaxhim sa me te mire ne nje
+            kohe sa me te shkurter.
+            <button class="btn">MË TEPËR</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="collapse multi-collapse" id="multiCollapse2">
+          <div class="card card-body">
+            <img src="{%static 'Images/fileserver.png'%}" alt="File Server" class="img-fluid w-75 mx-auto">
+            Me file server administratoret kane nje vegel te fuqishme per te kuptuar, kontrolluar dhe menaxhuar
+            informacionin e ruajtur ne serverat e tyre.
+            <button class="btn">MË TEPËR</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="collapse multi-collapse" id="multiCollapse3">
+          <div class="card card-body">
+            <img src="{%static 'Images/hosting.png'%}" alt="Web Hosting" class="img-fluid mb-3">
+            <ul>Sherbime te ndryshme duke filluar qe nga:
+              <li>Instalimi</li>
+              <li>Konfigurimi dhe Mirembajtja</li>
+              <li>Hosting</li>
+            </ul>
+            <button class="btn">MË TEPËR</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-3 text-center col-sm-6">
+          <img src="{%static 'Images/logo.png'%}" alt="" class="img-fluid">
+          <a href="mailto:helpdesk@mcn.al" class="mt-4">helpdesk@mcn.al</a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div>
+            <h6>SERVISET</h6>
+            <li class="mb-1"><a href="../internet#ofertatinternet">Internet</a></li>
+            <li class="mb-1"><a href="../trajnime#trainim">Trainimet</a></li>
+            <li class="mb-1"><a href="../PDF/TREGUESIT_INTERNET_VITI_2019.pdf" target="_blank">Treguesit
+                Internet</a></li>
+            <li class="mb-1"><a href="../PDF/TREGUESIT_TELEFONIKE_VITI_2019.pdf" target="_blank">Treguesit
+                Telefonike</a></li>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div>
+            <h6>MBI NE</h6>
+            <li class="mb-1"><a href="../#trust">Ekipa</a></li>
+            <li class="mb-1"><a href="../webdesign#portofolio">Portofolio</a></li>
+            <li class="mb-1"><a href="../kontakt#forma">Kontaktoni</a></li>
+            <li class="mb-1">MC NETWORKING SH.P.K, themeluar me
+              23/10/2007</li>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div>
+            <h6>ADDRESA JONE</h6>
+            <li class="mb-1">Rrg Pjeter Bogdani,</li>
+            <li class="mb-1">Tirana,</li>
+            <li class="mb-1">Albania.</li>
+            <div class="icons">
+              <a href="https://www.facebook.com/MCN-get-connected-390632191014075/" target="_blank"><i
+                  class="fab fa-facebook-f p-1"></i></a>
+              <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram p-1"></i></a>
+              <a href="https://twitter.com/MC_Networking" target="_blank"><i class="fab fa-twitter p-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="text-center copyright">&copy;2020 copyrights. All rights reserved <a class="vision"
+          href="https://www.vision-agency.com/">Vision-agency</a> </p>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <script src="{%static 'JavaScript/dropdown.js'%}"></script>
+</body>
+
+</html>

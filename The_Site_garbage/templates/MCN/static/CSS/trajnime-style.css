@@ -1,0 +1,19 @@
+.blue-heading {
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+[aria-expanded="true"],
+.blue-heading:hover {
+    border: 2px solid rgb(24, 169, 253);
+}
+
+[aria-expanded="true"] {
+    color: rgb(24, 169, 253);
+}
+
+.collapsing {
+    transition: 0.5s ease-in-out !important;
+}

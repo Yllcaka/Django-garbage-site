@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+{% load static %}
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+  <link rel="stylesheet" href="{%static 'CSS/style.css'%}">
+  <link rel="stylesheet" href="{%static 'CSS/webdesign-style.css'%}">
+  <title>Webdesign</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light">
+      <a class="navbar-brand" href="../"><img class="w-75" src="{%static 'Images/logo.png'%}" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../">HOME</a>
+          </li>
+          <!-- Qitu -->
+          <div class="dropdown">
+            <li class="drop nav-item"><a class="nav-link" role="button" href="#" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">OFERTAT</a>
+              <ul class="dropdown dropdown-menu">
+                <li class="nav-item"><a class="dropdown-item" href="../internet">INTERNETI</a></li>
+                <li class="nav-item"><a class="dropdown-item" href="../telefoni">TELEFONI</a>
+                </li>
+              </ul>
+            </li>
+          </div>
+          <li class="nav-item active">
+            <a class="nav-link" href="../webdesign">DESIGN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../networking">NETWORKING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../software">SOFTWARE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../trajnime">TRAINIME</a>
+          </li>
+          <li class="nav-item">
+            <a href="../kontakt" class="nav-link">KONTAKT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section>
+    <div class="container mt-2">
+      <img class="img-fluid mb-3" src="{%static 'Images/designtemp.png'%}" alt="designtemp">
+      <div class="container my-5 blue-border radius">
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <img class="img-fluid p-3" src="{%static 'Images/webdesign.jpeg'%}" alt="">
+          </div>
+          <div class="col-md-6 mt-5 mb-4">
+            <div class="col-12">
+              <h1>WEB<span class="blue-dot"> DESIGN</span></h1>
+              <p class="pt-3">Cdo biznes modern kerkon te kete prezencen e tij ne internet. Faqja e saj duhet te
+                reflektoje aktivitetin dhe avantazhet e kesaj kompanie ne treg.
+                Nje ndertim Inteligjent, dinamik dhe progresiv eshte ne zemer te nje faqeje web. Kualiteti i larte dhe
+                dezajn-i kreativ jane te domosdoshme ne menyre qe faqja te jete sa me terheqese.
+                Ne ju ofrojme te gjitha keto avantazhe per nje prezantim sa me te mire te kompanise suaj ne treg.
+                MC Networking ofron teknologjite me moderne per ndertimin e faqeve nga me te thjeshtat deri tek me
+                komplekset.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container my-5 blue-border radius2">
+        <div class="row">
+          <div class="col-md-6 mt-5 mb-4">
+            <div class="col-12">
+              <h1>CONTENT<span class="blue-dot"> DEVELOPMENT</span></h1>
+              <ul class="pt-3 blue-list">
+                <li>Per zhvillimin e metejshem dhe mbushjen e faqes se kompanise juaj me informacione te tjera, per cdo
+                  faqe te krijuar nga MC Networking ofrohet nje panel administrimi. Ky panel mund te ndahet edhe me te
+                  drejta per cdo user te kompanise qe te plotesoj informacionin qe I takon ne faqe.</li>
+                <li>Teknologjia e ndertimit eshte ne Drupal dhe kjo mundeson krijimin e faqeve ne menyre sa me dinamike
+                  dhe nje sistem azhornimi te strukturuar ne menyre qe faqja te mos humbasi sensin e hedhjes se
+                  informacionit. Kjo do te thot qe ofertat, sherbimet, produkte ndahen ne kategori dhe shfaqen ne bokse
+                  te paracaktuar nga perdoruesi, ne menyre qe edhe historiku I faqes te ruhet dhe te jete lehtesishte I
+                  aksesueshem.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 text-center">
+            <img class="img-fluid pt-5" src="{%static 'Images/admin.jpeg'%}" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="container my-5 blue-border radius">
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <img class="img-fluid p-3" src="{%static 'Images/webdevelopment.jpeg'%}" alt="">
+          </div>
+          <div class="col-md-6 mt-5 mb-4">
+            <div class="col-12">
+              <h1>WEB <span class="blue-dot">DEVELOPMENT</span></h1>
+              <p class="pt-3">Zhvillimi I faqes juaj ne CMS mundeson nje varietet mjetesh per te administruar faqen ne
+                kohe reale dhe ne menyre sa me dinamike. Keto platforma perdoren per te ndertuar qe nga faqet me te
+                thjeshta deri tek faqet me komplekse. CMS I jep mundesin perdoruesve te organizojne sa me mire punen qe
+                do kryejn ne faqe per mirmbajtjen e saj ne vazhdim. Nder CMS e ofruara jane : DRUPAL, SiteFinity,
+                Wordpress, Joomla, Vivo etj.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mx-auto">
+        <div class="col-md-4 text-center">
+          <div class="card border-primary mb-3 mx-auto" style="max-width: 18rem;">
+            <div class="card-header">GRAPHIC DESIGN</div>
+            <div class="card-body text-primary">
+              <p class="card-text">Duke kombinuar pasjonin dhe kreativitetin për të ofruar tek ju imazhin e duhur te
+                biznesit tuaj me cilësinë më të lartë.</p>
+              <button class="btn animate right">MË TEPËR</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="card border-primary mb-3 mx-auto" style="max-width: 18rem;">
+            <div class="card-header">WEB DESIGN</div>
+            <div class="card-body text-primary">
+              <p class="card-text">Cdo biznes modern kërkon të këtë prezencën e tij në internet. Faqja e saj duhet të
+                reflektojë aktivitetin dhe avantazhet e kesaj kompanie në treg.</p>
+              <button class="btn animate radial">MË TEPËR</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="card border-primary mb-3 mx-auto" style="max-width: 18rem;">
+            <div class="card-header">PROMOCIONE</div>
+            <div class="card-body text-primary">
+              <p class="card-text">Shikoni ofertat e ndryshme me cmimet më konkuruese në treg për shërbimet Graphic
+                Design dhe Web Design, duke i dhënë punës tuaj pamjën që meriton të transmetohet.</p>
+              <button class="btn animate left">MË TEPËR</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section id="portofolio">
+    <h2 class="text-center text-primary ">PORTOFOLIO</h2>
+    <div class="card-group container-md">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div data-toggle="modal" data-target="#myModal">
+              <a href="#myGallery" data-slide-to="0">
+                <img class="card-img-top" src="{%static 'Images/umsh.jpg'%}" alt="Card image cap">
+              </a>
+            </div>
+
+            <div class="card-footer text-center">
+              Universiteti Mesdhetar
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div data-toggle="modal" data-target="#myModal">
+              <a href="#myGallery" data-slide-to="1">
+                <img class="card-img-top" src="{%static 'Images/rose.jpg'%}" alt="Card image cap">
+              </a>
+            </div>
+            <div class="card-footer text-center">
+              La Vie En Rose
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div data-toggle="modal" data-target="#myModal">
+              <a href="#myGallery" data-slide-to="2">
+                <img class="card-img-top" src="{%static 'Images/tema.jpg'%}" alt="Card image cap">
+              </a>
+            </div>
+            <div class="card-footer text-center">
+              Gazeta Tema
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div data-toggle="modal" data-target="#myModal">
+              <a href="#myGallery" data-slide-to="3">
+                <img class="card-img-top" src="{%static 'Images/fultz.jpg'%}" alt="Card image cap">
+              </a>
+            </div>
+            <div class="card-footer text-center">
+              Harry Fultz
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div data-toggle="modal" data-target="#myModal">
+              <a href="#myGallery" data-slide-to="4">
+                <img class="card-img-top" src="{%static 'Images/respublica.jpg'%}" alt="Card image cap">
+              </a>
+            </div>
+            <div class="card-footer text-center">
+              Gazeta Respublica
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div data-toggle="modal" data-target="#myModal">
+              <a href="#myGallery" data-slide-to="5">
+                <img class="card-img-top" src="{%static 'Images/java.jpg'%}" alt="Card image cap">
+              </a>
+            </div>
+            <div class="card-footer text-center">
+              Revista Java
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div data-toggle="modal" data-target="#myModal">
+              <a href="#myGallery" data-slide-to="6">
+                <img class="card-img-top" src="{%static 'Images/simple.jpg'%}" alt="Card image cap">
+              </a>
+            </div>
+            <div class="card-footer text-center">
+              Simple
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div data-toggle="modal" data-target="#myModal">
+              <a href="#myGallery" data-slide-to="7">
+                <img class="card-img-top" src="{%static 'Images/bashkimzhvillim.jpg'%}" alt="Card image cap">
+              </a>
+            </div>
+            <div class="card-footer text-center">
+              Instituti për bashkim & zhvillim
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div data-toggle="modal" data-target="#myModal">
+              <a href="#myGallery" data-slide-to="8">
+                <img class="card-img-top" src="{%static 'Images/panorama.jpg'%}" alt="Card image cap">
+              </a>
+            </div>
+            <div class="card-footer text-center">
+              Panorama Dajti
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Qitu e teposht osht prov per modal qe do te jete -->
+    <!--begin modal window-->
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="text-center mx-auto text-white">Gallery</h4>
+          </div>
+          <div class="modal-body">
+
+            <!--CAROUSEL CODE GOES HERE-->
+            <!--begin carousel-->
+            <div id="myGallery" class="carousel slide" data-ride="carousel" data-interval="10000">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="img-fluid" src="{%static 'Images/umsh.jpg'%}" alt="item0">
+                  <div class="carousel-caption">
+                    <h3> Universiteti Mesdhetar
+                    </h3>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="{%static 'Images/rose.jpg'%}" alt="item1">
+                  <div class="carousel-caption">
+                    <h3>
+                      La Vie En Rose
+                    </h3>
+
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="{%static 'Images/tema.jpg'%}" alt="item2">
+                  <div class="carousel-caption">
+                    <h3>Gazeta Tema</h3>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="{%static 'Images/fultz.jpg'%}" alt="item3">
+                  <div class="carousel-caption">
+                    <h3>Harry Fultz</h3>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="{%static 'Images/respublica.jpg'%}" alt="item4">
+                  <div class="carousel-caption">
+                    <h3>Gazeta Respublica</h3>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="{%static 'Images/java.jpg'%}" alt="item5">
+                  <div class="carousel-caption">
+                    <h3>Revista Java</h3>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="{%static 'Images/simple.jpg'%}" alt="item5">
+                  <div class="carousel-caption">
+                    <h3>Simple</h3>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="{%static 'Images/bashkimzhvillim.jpg'%}" alt="item5">
+                  <div class="carousel-caption">
+                    <h3>Instituti për bashkim & zhvillim</h3>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid" src="{%static 'Images/panorama.jpg'%}" alt="item5">
+                  <div class="carousel-caption">
+                    <h3>Panorama Dajti</h3>
+                  </div>
+                </div>
+              </div>
+              <!--end carousel-inner-->
+            </div>
+            <!--Begin Previous and Next buttons-->
+            <div class="carouselbuttons">
+              <a class="carousel-control-prev" href="#myGallery" role="button" data-slide="prev">
+                <i class="fas fa-chevron-left"></i>
+              </a>
+              <a class="carousel-control-next" href="#myGallery" role="button" data-slide="next">
+                <i class="fas fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+          <!--end modal-content-->
+        </div>
+        <!--end modal-dialoge-->
+      </div>
+      <!--end myModal-->
+    </div>
+
+
+  </section>
+
+  <span class="animate left">Left</span>
+  <footer>
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-3 text-center col-sm-6">
+          <img src="{%static 'Images/logo.png'%}" alt="" class="img-fluid">
+          <a href="mailto:helpdesk@mcn.al" class="mt-4">helpdesk@mcn.al</a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div>
+            <h6>SERVISET</h6>
+            <li class="mb-1"><a href="../internet#ofertatinternet">Internet</a></li>
+            <li class="mb-1"><a href="../trajnime#trainim">Trainimet</a></li>
+            <li class="mb-1"><a href="../PDF/TREGUESIT_INTERNET_VITI_2019.pdf" target="_blank">Treguesit
+                Internet</a></li>
+            <li class="mb-1"><a href="../PDF/TREGUESIT_TELEFONIKE_VITI_2019.pdf" target="_blank">Treguesit
+                Telefonike</a></li>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div>
+            <h6>MBI NE</h6>
+            <li class="mb-1"><a href="../#trust">Ekipa</a></li>
+            <li class="mb-1"><a href="../webdesign#portofolio">Portofolio</a></li>
+            <li class="mb-1"><a href="../kontakt#forma">Kontaktoni</a></li>
+            <li class="mb-1">MC NETWORKING SH.P.K, themeluar me
+              23/10/2007</li>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div>
+            <h6>ADDRESA JONE</h6>
+            <li class="mb-1">Rrg Pjeter Bogdani,</li>
+            <li class="mb-1">Tirana,</li>
+            <li class="mb-1">Albania.</li>
+            <div class="icons">
+              <a href="https://www.facebook.com/MCN-get-connected-390632191014075/" target="_blank"><i
+                  class="fab fa-facebook-f p-1"></i></a>
+              <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram p-1"></i></a>
+              <a href="https://twitter.com/MC_Networking" target="_blank"><i class="fab fa-twitter p-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="text-center copyright">&copy;2020 copyrights. All rights reserved <a class="vision"
+          href="https://www.vision-agency.com/">Vision-agency</a> </p>
+    </div>
+  </footer>
+
+
+
+
+
+
+  <!-- Deri qitu dikun -->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <script src="{%static 'JavaScript/dropdown.js'%}"></script>
+</body>
+
+</html>

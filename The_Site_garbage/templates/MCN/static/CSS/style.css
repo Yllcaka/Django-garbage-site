@@ -1,0 +1,483 @@
+* {
+    font-family: 'Roboto', ;
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.blue-dot {
+    color: rgb(24, 169, 253);
+    font-weight: 700 !important;
+}
+
+.blue-border {
+    border: 2px solid rgb(24, 169, 253);
+}
+
+.radius {
+    border-radius: 15px 0px 15px 0px;
+}
+
+.radius2 {
+    border-radius: 0px 15px 0px 15px;
+}
+
+.blue-list {
+    padding-top: 3rem;
+}
+
+.blue-list li::before {
+    content: "•";
+    color: rgb(24, 169, 253) !important;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+table {
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+table td {
+    border: 2px solid #fff;
+    padding: 3px;
+    width: 25%;
+}
+
+tr {
+    background: #8bdfe2;
+}
+
+tr:nth-child(even) {
+    background-color: #a9e7e9 !important;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../Images/quote.jpeg");
+    /* transform: scale(1.2); */
+    /* Set a specific height */
+    /* min-height: 500px; */
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-text {
+    font-size: 12vw;
+    font-weight: 900;
+    cursor: default !important;
+    -webkit-text-stroke-color: rgb(24, 169, 253);
+    /* -webkit-text-stroke-width: 0.12em; */
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: url("../Images/tech.jpg");
+    /* transform: scale(1.2); */
+    /* Set a specific height */
+    /* min-height: 500px; */
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+input,
+textarea,
+select {
+    outline: none !important;
+    box-shadow: none !important;
+    transition: 0.2s ease-in-out !important;
+    color: rgb(71, 71, 71) !important;
+}
+
+input:hover,
+textarea:hover,
+select:hover {
+    border-color: rgb(24, 169, 253);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    /* border-radius: 30px; */
+    border-color: rgb(24, 169, 253);
+    border-width: 4px;
+}
+
+.fit-image {
+    margin: 0 10px;
+    width: 40vh;
+    object-fit: cover;
+    height: 40vh;
+    text-align: center;
+    border-radius: 10px;
+    /* only if you want fixed height */
+}
+
+/* Ai tripi per animation */
+/* .animate { */
+/* padding: 50px 0;
+    min-height: 100vh;
+    margin: 0; */
+/* background: radial-gradient(ellipse farthest-corner at center bottom, #6beace, #2e9aa4); */
+/* color: #8b9095; */
+/* font-size: 14px; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-weight: 900; */
+/* font-size: 80px; */
+
+/* } */
+
+.diagonal {
+    transform: rotate(-45deg);
+    font-size: 25px;
+}
+
+.animate {
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight: 800;
+    cursor: pointer;
+    -webkit-text-stroke-color: rgb(24, 169, 253);
+    -webkit-text-stroke-width: 0.02em;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-repeat: no-repeat;
+    transition: background-size .5s cubic-bezier(0.67, 0.01, 0.15, 0.98);
+}
+
+.top {
+    background-image: linear-gradient(180deg, rgb(24, 169, 253) 0%, rgb(24, 169, 253) 50%, transparent 50.1%);
+    background-position: 100% 0%;
+    background-size: 100% 0%;
+
+
+}
+
+.top:hover {
+    background-size: 100% 200%;
+}
+
+.right {
+    background-image: linear-gradient(270deg, rgb(24, 169, 253) 0%, rgb(24, 169, 253) 50%, transparent 50.1%);
+    background-position: 100% 0%;
+    background-size: 0% 100%;
+
+
+}
+
+.right:hover {
+    background-size: 200% 100%;
+}
+
+.bottom {
+    background-image: linear-gradient(0deg, rgb(24, 169, 253) 0%, rgb(24, 169, 253) 50%, transparent 50.1%);
+    background-position: 100% 100%;
+    background-size: 100% 0%;
+
+
+}
+
+.bottom:hover {
+    background-size: 100% 200%;
+}
+
+.left {
+    background-image: linear-gradient(90deg, rgb(24, 169, 253) 0%, rgb(24, 169, 253) 50%, transparent 50.1%);
+    background-size: 0% 100%;
+
+
+}
+
+.left:hover {
+    background-size: 200% 100%;
+}
+
+.angle {
+    background-image: linear-gradient(135deg, rgb(24, 169, 253) 0%, rgb(24, 169, 253) 50%, transparent 50.1%);
+    background-size: 0% 100%;
+}
+
+.angle:hover {
+    background-size: 220% 100%;
+}
+
+.radial {
+    background-image: radial-gradient(circle farthest-corner at center center, rgb(24, 169, 253) 0%, rgb(24, 169, 253) 50%, transparent 50.1%);
+    background-position: 50% 50%;
+    background-size: 0% 0%;
+
+}
+
+.radial:hover {
+    background-size: 180% 400%;
+    /* Depends by text size */
+}
+
+/* DERI QITU */
+header .nav-item {
+
+    color: rgb(24, 169, 253);
+    text-decoration: none;
+}
+
+header .nav-link {
+    padding-right: 30px;
+}
+
+header .nav-item::after {
+    margin-left: 10%;
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: rgb(24, 169, 253);
+    transition: width .5s;
+}
+
+header .nav-item:hover::after,
+header .active::after,
+.dropdown {
+    width: 80%;
+    transition: width .5s;
+}
+
+.dropdown .nav-item::after {
+    height: 2px;
+    margin-left: 0;
+}
+
+.dropdown .nav-item:hover::after,
+.dropdown .active::after {
+    width: 100%;
+    transition: width .5s;
+}
+
+.dropdown-menu {
+    border-radius: 4px !important;
+    margin-top: 40px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    background-color: rgb(141, 204, 241);
+}
+
+header {
+    background-color: rgb(141, 204, 241);
+}
+
+header a:hover,
+header .nav-item:hover:not(.drop) a,
+.dropdown-menu a:hover {
+    color: rgb(181, 228, 255) !important;
+}
+
+header .active a,
+header .active a:hover,
+header .active:hover a,
+header .active:hover {
+    color: rgb(24, 169, 253) !important;
+}
+
+header a {
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-toggler {
+    border-width: 2px;
+    border-color: rgb(24, 169, 253) !important;
+    color: rgb(24, 169, 253) !important;
+    transition: 0.5s ease-in-out;
+    display: none;
+}
+
+.btn {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.vision {
+    color: #ffd400 !important;
+}
+
+.vision:hover {
+    color: #fde77a !important;
+}
+
+footer {
+    background-color: rgb(181, 228, 255);
+}
+
+footer li,
+footer a {
+    transition: 0.2s ease-in-out;
+    color: rgb(150, 144, 144);
+}
+
+footer li:hover,
+footer a:hover {
+    color: rgb(24, 169, 253) !important;
+
+}
+
+footer .text-center>a {
+    display: block;
+    color: black
+}
+
+footer li {
+    list-style: none;
+}
+
+.icons i {
+    text-align: center;
+    vertical-align: center;
+    width: 30px;
+    font-size: 16px;
+    color: #FFFFFF;
+    transition: 0.5s ease-in-out;
+    background-color: rgb(24, 169, 253);
+    border: 2px solid rgb(24, 169, 253);
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+footer .icons i:hover {
+    background-color: #ffffff;
+    color: rgb(24, 169, 253);
+
+}
+
+footer .copyright {
+    color: #BEBABA;
+    margin-top: 10%;
+}
+
+footer>.container {
+    padding-bottom: 15px !important;
+}
+
+footer .copyright {
+    color: rgb(0, 0, 0);
+    margin-top: 10%;
+}
+
+/* .btn {
+    border: 3px solid rgb(24, 169, 253);
+    color: rgb(24, 169, 253);
+}
+
+.btn:hover {
+    background-color: rgb(24, 169, 253);
+    color: #ffffff;
+} */
+
+.shadow46and2 {
+    box-shadow: 1px 1px 5px 0px rgba(219, 219, 219, 1);
+    transition: 0.3s ease-in-out;
+}
+
+.shadow46and2:hover {
+    box-shadow: 4px 4px 5px 3px rgba(219, 219, 219, 1) !important;
+}
+
+/* QITU E TEPOSTH JANE PER DROPDOWN */
+
+
+.dropdown ul {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+    /* z-index: 1000; */
+}
+
+
+div.dropdown ul li a {
+    display: block;
+    color: #34495e !important;
+    background: rgb(141, 204, 241) !important;
+
+}
+
+div.dropdown ul li a:hover {
+    display: block;
+    /* background: #3498db !important; */
+    color: #fff !important;
+}
+
+/* .drop>a {
+    position: relative;
+} */
+
+/* .drop>a:after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 40%;
+    border-left: 5px solid transparent;
+    border-top: 5px solid #333;
+    border-right: 5px solid transparent;
+    z-index: 999;
+} */
+/* 
+.drop>a:hover:after {
+    content: "";
+    border-left: 5px solid transparent;
+    border-top: 5px solid #fff;
+    border-right: 5px solid transparent;
+} */
+
+/*DERI QITU  */
+
+@media screen and (max-width:767px) {
+    .dropdown-menu {
+        margin-top: 0;
+    }
+
+    header .nav-item::after {
+        margin-left: 0;
+    }
+
+    header .nav-item:hover::after,
+    header .active::after,
+    .dropdown {
+        width: 15%;
+        transition: width .5s;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    footer {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width:767px) {
+    footer .row>div {
+        padding-left: 70px;
+    }
+}

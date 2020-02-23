@@ -1,0 +1,10 @@
+.parallax-text {
+    background-image: url(../Images/bluepattern.jpg);
+    /* -webkit-text-stroke-width: 0.01em; */
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    padding: 10vw;
+}
+
+.bgrounded {
+    background-color: #dce7f3;
+}

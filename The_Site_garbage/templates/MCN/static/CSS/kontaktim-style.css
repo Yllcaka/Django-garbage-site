@@ -1,0 +1,19 @@
+.labeling {
+    height: 40px;
+}
+
+textarea {
+    resize: none;
+}
+
+@media screen and (max-width:991px) {
+    .labeling {
+        height: 65px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .labeling {
+        height: auto;
+    }
+}

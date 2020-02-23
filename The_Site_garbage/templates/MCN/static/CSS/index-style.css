@@ -1,0 +1,98 @@
+#count1,
+#count2,
+#count3 {
+    color: #147cb3;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-container {
+    height: 200px;
+}
+
+/* .card-container img {
+    width: 75%;
+} */
+.btn {
+    margin: 0 auto;
+    border: 3px solid #8bdfe2;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.btn {
+    border: 3px solid rgb(24, 169, 253);
+    background-color: rgb(24, 169, 253);
+    color: #ffffff;
+}
+
+.btn:hover {
+    background-color: white;
+    color: rgb(24, 169, 253);
+
+}
+
+blockquote {
+    font-size: 30px;
+    color: white;
+    /* background: #f9f9f9;
+    border-left: 10px solid #8bdfe2; */
+    margin: .5em 10px;
+    padding: 10vw 10px !important;
+    quotes: "\201C""\201D""\2018""\2019";
+    padding: 10px 20px;
+    line-height: 1.4;
+}
+
+.quotation:before {
+    content: open-quote;
+    display: inline;
+    height: 0;
+    line-height: 0;
+    left: -10px;
+    position: relative;
+    top: 30px;
+    color: #8bdfe2;
+    font-size: 3em;
+}
+
+.padding {
+    margin-bottom: 125px;
+}
+
+.quotation:after {
+    content: close-quote;
+    display: inline;
+    height: 0;
+    line-height: 0;
+    left: -10px;
+    position: relative;
+    top: 30px;
+    color: #8bdfe2;
+    font-size: 3em;
+}
+
+.quotefooter {
+    margin: 0;
+    text-align: right;
+    font-size: 1em;
+    font-style: italic;
+    float: right;
+}
+
+#carouselControls i {
+    color: black !important;
+    font-size: 60px;
+    transition: 0.3s ease-in-out;
+}
+
+#carouselControls i:hover,
+#carouselControls a:hover i {
+    color: rgb(24, 169, 253) !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    opacity: 1 !important;
+    transition: 1s ease-in-out;
+}
