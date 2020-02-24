@@ -56,6 +56,10 @@ blockquote {
     font-size: 3em;
 }
 
+.quotation {
+    font-size: 20wv;
+}
+
 .padding {
     margin-bottom: 125px;
 }
