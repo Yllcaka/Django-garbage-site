@@ -60,6 +60,10 @@ blockquote {
     font-size: 3wv !important;
 }
 
+.parallax {
+    margin-top: 1vw !important;
+}
+
 .padding {
     margin-bottom: 125px;
 }
@@ -99,4 +103,14 @@ blockquote {
 .carousel-control-prev {
     opacity: 1 !important;
     transition: 1s ease-in-out;
+}
+
+#index-begin .card {
+    width: 18rem;
+}
+
+@media screen and(max-width:991px) {
+    #index-begin .card {
+        width: 15rem !important;
+    }
 }
