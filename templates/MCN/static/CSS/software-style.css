@@ -8,3 +8,22 @@
 .bgrounded {
     background-color: #dce7f3;
 }
+
+.blue-heading h4 {
+    color: white !important;
+}
+
+.blue-heading {
+    background-color: rgb(87, 185, 241);
+}
+
+#accordion {
+    margin-bottom: 30px;
+}
+
+
+@media screen and (max-width:767px) {
+    .col-md-6 {
+        text-align: center;
+    }
+}

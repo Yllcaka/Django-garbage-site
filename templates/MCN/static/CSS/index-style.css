@@ -33,7 +33,7 @@
 }
 
 blockquote {
-    font-size: 3vw;
+    font-size: 30px;
     color: white;
     /* background: #f9f9f9;
     border-left: 10px solid #8bdfe2; */
@@ -56,14 +56,6 @@ blockquote {
     font-size: 3em;
 }
 
-.quotation {
-    font-size: 3wv !important;
-}
-
-.parallax {
-    margin-top: 1vw !important;
-}
-
 .padding {
     margin-bottom: 125px;
 }
@@ -83,7 +75,7 @@ blockquote {
 .quotefooter {
     margin: 0;
     text-align: right;
-    font-size: 3vw;
+    font-size: 1em;
     font-style: italic;
     float: right;
 }
