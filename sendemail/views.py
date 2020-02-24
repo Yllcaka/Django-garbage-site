@@ -58,15 +58,18 @@ def tripi_me_email(request):
 
     message = request.POST.get('message')
 
-    context = {'Emri': Emri , 'E-mail': E_mail ,
+    context = {'Emri dhe Mbiemri': Emri , 'E-mail': E_mail ,
                'subjekti': subjekti , 'kategoria': kategoria ,
                'message': message}
     content = f""
-    for k,v in context:
-        content+= f"{k}:\n{v}"
+    for k,v in context.items():
+        if k == "subjekti" or k == "kategoria":
+            continue
+        content+= f"{k.capitalize()}:\n\t{str(v).capitalize()}\n"
     # if request.method == 'GET':
     #     form = ContactForm()
     # else:
+    subjekti = f"{subjekti}({kategoria})"
     if request.method == 'GET':
         form = ContactForm()
     else:
