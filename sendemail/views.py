@@ -6,6 +6,8 @@ from .forms import ContactForm
 
 # Create your views here.
 # sendemail/views.py
+def bigkontakt(request):
+    return render(request,"MCN/kontaktim.html")
 def pdf1(request):
     return render(request, "MCN/PDF/TREGUESIT_INTERNET_VITI_2019.pdf")
 def pdf2(request):
