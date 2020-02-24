@@ -27,21 +27,21 @@ def trainime(request):
 def kontakt(request):
     return render(request,"MCN/kontakt.html")
 
-def emailView(request):
-    if request.method == 'GET':
-        form = ContactForm()
-    else:
-        form = ContactForm(request.POST)
-        if form.is_valid():
-            subject = form.cleaned_data['subject']
-            from_email = form.cleaned_data['E_mail']
-            message = form.cleaned_data['message']
-            try:
-                send_mail(subject, message, from_email, ['yllcaka1516457@gmail.com'])
-            except BadHeaderError:
-                return HttpResponse('Invalid header found.')
-            return redirect('../success/')
-    return render(request, "MCN/kontakt.html", {'form': form})
+# def emailView(request):
+#     if request.method == 'GET':
+#         form = ContactForm()
+#     else:
+#         form = ContactForm(request.POST)
+#         if form.is_valid():
+#             subject = form.cleaned_data['subject']
+#             from_email = form.cleaned_data['E_mail']
+#             message = form.cleaned_data['message']
+#             try:
+#                 send_mail(subject, message, from_email, ['yllcaka1516457@gmail.com'])
+#             except BadHeaderError:
+#                 return HttpResponse('Invalid header found.')
+#             return redirect('../success/')
+#     return render(request, "MCN/kontakt.html", {'form': form})
 
 def successView(request):
     return render(request,"MCN/redirect.html")
@@ -61,7 +61,9 @@ def tripi_me_email(request):
     context = {'Emri': Emri , 'E-mail': E_mail ,
                'subjekti': subjekti , 'kategoria': kategoria ,
                'message': message}
-    content = f"{kategoria}\n{message}\nNga: {Emri}."
+    content = f""
+    for k,v in context:
+        content+= f"{k}:\n{v}"
     # if request.method == 'GET':
     #     form = ContactForm()
     # else:
