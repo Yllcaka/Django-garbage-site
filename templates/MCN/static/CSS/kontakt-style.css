@@ -47,12 +47,22 @@ form {
     margin-bottom: 75px;
 }
 
+a.animate {
+    font-size: 40px;
+}
 
+.right {
+    background-image: linear-gradient(270deg, rgb(180, 227, 255) 0%, rgb(180, 227, 255) 50%, transparent 50.1%);
+
+}
+
+.radial {
+    /* width: 40% !important; */
+}
 
 .parallax-text {
     font-size: 7vw !important;
     background-image: url(../Images/bluepattern.jpg) !important;
-    cursor: pointer !important;
 }
 
 
