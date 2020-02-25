@@ -130,9 +130,12 @@ def tripi_me_email(request):
     subjekti = f"{subjekti}({kategoria})"
     if request.method == 'GET':
         form = ContactForm()
+        print("inside GET method")
     else:
         form = ContactForm(request.POST)
+        print("outside if inside else")
         if form.is_valid():
+            print("insideif")
             # subject = form.cleaned_data['subject']
             # from_email = form.cleaned_data['E_mail']
             # message = form.cleaned_data['message']
