@@ -47,13 +47,12 @@ form {
     margin-bottom: 75px;
 }
 
-.bigform {
-    color: rgb(24, 169, 253);
-}
 
-.container .parallax-text {
-    font-size: 5vw !important;
-    background-image: url(../Images/contactim.jpg) !important;
+
+.parallax-text {
+    font-size: 7vw !important;
+    background-image: url(../Images/bluepattern.jpg) !important;
+    cursor: pointer !important;
 }
 
 
