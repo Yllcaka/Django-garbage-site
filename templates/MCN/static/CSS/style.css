@@ -79,6 +79,10 @@ tr:nth-child(even) {
     background-size: cover;
 }
 
+.bgrounded {
+    background-color: #dce7f3;
+}
+
 .parallax-text {
     font-size: 12vw;
     font-weight: 900;
@@ -88,7 +92,7 @@ tr:nth-child(even) {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    background-image: url("../Images/tech.jpg");
+    background-image: url(../Images/bluepattern.jpg);
     /* transform: scale(1.2); */
     /* Set a specific height */
     /* min-height: 500px; */
