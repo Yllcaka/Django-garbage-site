@@ -8,10 +8,10 @@ from .forms import ContactForm
 # sendemail/views.py
 def bigkontakt(request):
     return render(request,"MCN/kontaktim.html")
-def pdf1(request):
-    return render(request, "MCN/PDF/TREGUESIT_INTERNET_VITI_2019.pdf")
-def pdf2(request):
-    return render(request, "MCN/PDF/TREGUESIT_TELEFONIKE_VITI_2019.pdf")
+# def pdf1(request):
+#     return render(request, "MCN/static/PDF/TREGUESIT_INTERNET_VITI_2019.pdf")
+# def pdf2(request):
+#     return render(request, "MCN/static/PDF/TREGUESIT_TELEFONIKE_VITI_2019.pdf")
 def homepage(request):
     return render(request,"MCN/index.html")
 def internet(request):
