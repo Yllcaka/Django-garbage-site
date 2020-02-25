@@ -97,12 +97,12 @@ blockquote {
     transition: 1s ease-in-out;
 }
 
-#index-begin .card {
+#index-begin .col-md-4 {
     width: 288px;
 }
 
 @media screen and(max-width:991px) {
-    #index-begin .card {
-        width: 200px !important;
+    #index-begin .col-md-4 {
+        width: 300px !important;
     }
 }
