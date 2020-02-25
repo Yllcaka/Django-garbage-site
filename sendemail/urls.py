@@ -17,6 +17,6 @@ urlpatterns = [
     path("trajnime/",trainime,name="trainime"),
     path("internet_viti/",pdf1,name="internet_viti"),
     path("telefonike_viti/",pdf2,name = "telefonike_viti"),
-    path("kontaktim_i_plot",bigkontakt, name="kontaktim_i_plot"),
+    path("kontaktim_i_plot",tripi_madh_me_email, name="kontaktim_i_plot"),
     # path("kontakt/",kontakt,name="kontakt")
 ]
