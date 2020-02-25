@@ -79,6 +79,8 @@ def tripi_madh_me_email(request):
                'ngjyrat': ngjyrat,'domain': domain,'time': time,
                'natyra': natyra,'funksionalitet': funksionalitet,'grupfjalet': grupfjalet,
                'pagenr': pagenr,}
+    content = f""
+    E_mail = "Ylli-caka@gmail.com"
     for k,v in context.items():
         if k == "subjekti" or k == "kategoria":
             continue
