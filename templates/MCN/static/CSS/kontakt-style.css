@@ -47,6 +47,16 @@ form {
     margin-bottom: 75px;
 }
 
+.bigform {
+    color: rgb(24, 169, 253);
+}
+
+.container .parallax-text {
+    font-size: 5vw !important;
+    background-image: url(../Images/contactim.jpg) !important;
+}
+
+
 @media screen and (max-width: 991px) {
     form {
         width: 100%;
