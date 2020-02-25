@@ -33,7 +33,7 @@
 }
 
 blockquote {
-    font-size: 30px;
+    font-size: 3vw;
     color: white;
     /* background: #f9f9f9;
     border-left: 10px solid #8bdfe2; */
@@ -98,11 +98,11 @@ blockquote {
 }
 
 #index-begin .card {
-    width: 18rem;
+    width: 288px;
 }
 
 @media screen and(max-width:991px) {
     #index-begin .card {
-        width: 15rem !important;
+        width: 200px !important;
     }
 }

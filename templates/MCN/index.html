@@ -60,7 +60,7 @@
 			</div>
 		</nav>
 	</header>
-	<div id="carouselExampleControls" class="carousel slide container-lg" style="height: 30vw;" data-ride="carousel">
+	<div id="carouselExampleControls" class="carousel slide" style="height: 40vw;" data-ride="carousel">
 		<div class="carousel-inner">
 			<div class="carousel-item active">
 				<img class="d-block w-100" src="{%static 'Images/banner.jpg'%}" alt="First slide">
@@ -72,14 +72,15 @@
 				<img class="d-block w-100" src="{%static 'Images/ethernet.png'%}" alt="Third slide">
 			</div>
 		</div>
-		<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
-		</a>
-		<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
-		</a>
+		<div class="carouselbuttons">
+			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				<i class="fas fa-chevron-left"></i>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				<i class="fas fa-chevron-right"></i>
+			</a>
+		</div>
+
 	</div>
 	<section class="parallax">
 		<blockquote class="container">
@@ -91,15 +92,6 @@
 			<span class="quotefooter"> —
 				Endri Meksi(CEO)</span>
 		</blockquote>
-	</section>
-	<section id="staff">
-		<div class="container">
-			<div class="col-md-4 mx-auto">
-				<img src="{%static 'Images/staff.jpg'%}" alt="Ekipa" class="img-fluid">
-			</div>
-			<div class="col-md-4"></div>
-			<div class="col-md-4"></div>
-		</div>
 	</section>
 	<section id="index-begin">
 		<div class="container mt-2">
