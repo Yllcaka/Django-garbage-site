@@ -86,12 +86,15 @@ def tripi_madh_me_email(request):
             continue
         content+= f"{k.capitalize()}:\n\t{str(v).capitalize()}\n"
     subjekti = f"{company}({person})"
-
+    print("test")
     if request.method == 'GET':
         form = ContactForm()
+        print("inside GET method")
     else:
         form = ContactForm(request.POST)
+        print("outside if inside else")
         if form.is_valid():
+            print("insideif")
             # subject = form.cleaned_data['subject']
             # from_email = form.cleaned_data['E_mail']
             # message = form.cleaned_data['message']
