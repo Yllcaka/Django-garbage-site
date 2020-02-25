@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faa8008b-1713-4160-a625-b7e8f61a84ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/MCN/static/Images/difference.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/MCN/static/Images/solution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/MCN/static/Images/stock.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djcontact/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djcontact/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/MCN/software.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MCN/software.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
