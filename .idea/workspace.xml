@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faa8008b-1713-4160-a625-b7e8f61a84ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sendemail/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sendemail/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/MCN/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MCN/kontakt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/MCN/kontaktim.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MCN/kontaktim.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djcontact/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djcontact/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
