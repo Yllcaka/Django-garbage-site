@@ -140,7 +140,7 @@ def tripi_me_email(request):
             # from_email = form.cleaned_data['E_mail']
             # message = form.cleaned_data['message']
             try:
-                send_mail(subjekti, content, E_mail, ['yllcaka1516457@gmail.com'])
+                send_mail(subjekti, content, E_mail, ['yllcaka1516457@gmail.com'],fail_silently=False)
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return redirect('../success/')
