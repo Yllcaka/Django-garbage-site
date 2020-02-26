@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="faa8008b-1713-4160-a625-b7e8f61a84ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/MCN/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MCN/kontakt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djcontact/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djcontact/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/MCN/webdesign.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/MCN/webdesign.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,10 +75,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1345" height="177" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1582548452384" />
-    <state x="366" y="198" key="com.intellij.ide.util.TipDialog" timestamp="1582660713712">
+    <state x="366" y="198" key="com.intellij.ide.util.TipDialog" timestamp="1582706160822">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="366" y="198" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1582660713712" />
+    <state x="366" y="198" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1582706160822" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1582578972880">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
