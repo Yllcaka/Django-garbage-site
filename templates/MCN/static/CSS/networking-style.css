@@ -49,8 +49,21 @@
     margin-bottom: 30px;
 }
 
+.carded .card-body {
+    height: 60vh;
+    margin-bottom: 10px;
+}
+
+.blue-list {
+    padding-top: 0;
+}
+
 @media screen and (max-width:767px) {
     .parallax-text {
         font-size: 10vw;
+    }
+
+    .carded .card-body {
+        height: auto;
     }
 }

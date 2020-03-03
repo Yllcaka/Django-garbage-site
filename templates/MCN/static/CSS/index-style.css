@@ -33,7 +33,7 @@
 }
 
 blockquote {
-    font-size: 3vw;
+    font-size: 2vw;
     color: white;
     /* background: #f9f9f9;
     border-left: 10px solid #8bdfe2; */
@@ -101,8 +101,14 @@ blockquote {
     width: 288px;
 }
 
-@media screen and(max-width:991px) {
+@media screen and (max-width:991px) {
     #index-begin .col-md-4 {
         width: 300px !important;
     }
+
+    blockquote {
+        font-size: 3vw !important;
+    }
+
+
 }

@@ -70,11 +70,11 @@
         aria-controls="multiCollapse2">FILE SERVER</button>
       <button class="btn" type="button" data-toggle="collapse" data-target="#multiCollapse3" aria-expanded="false"
         aria-controls="multiCollapse3">SHERBIME</button>
-      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse"
-        aria-expanded="false" aria-controls="multiCollapse1 multiCollapse2">Te Gjithat</button>
+      <button class="btn" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false"
+        aria-controls="multiCollapse1 multiCollapse2">Te Gjithat</button>
     </p>
-    <div class="row container mx-auto">
-      <div class="col-md-4">
+    <div class="row container mx-auto carded">
+      <div class="col-md-6 col-lg-4">
         <div class="collapse multi-collapse" id="multiCollapse1">
           <div class="card card-body">
             <img src="{%static 'Images/activedirectory.png'%}" alt="Windows Active Directory" class="img-fluid">
@@ -84,7 +84,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6 col-lg-4">
         <div class="collapse multi-collapse" id="multiCollapse2">
           <div class="card card-body">
             <img src="{%static 'Images/fileserver.png'%}" alt="File Server" class="img-fluid w-75 mx-auto">
@@ -93,11 +93,12 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6 col-lg-4 mx-auto">
         <div class="collapse multi-collapse" id="multiCollapse3">
           <div class="card card-body">
             <img src="{%static 'Images/hosting.png'%}" alt="Web Hosting" class="img-fluid mb-3">
-            <ul>Sherbime te ndryshme duke filluar qe nga:
+            <p>Sherbime te ndryshme duke filluar qe nga:</p>
+            <ul class="blue-list">
               <li>Instalimi</li>
               <li>Konfigurimi dhe Mirembajtja</li>
               <li>Hosting</li>
