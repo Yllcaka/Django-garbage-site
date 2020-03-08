@@ -10,6 +10,19 @@
     height: 200px;
 }
 
+.card-body {
+    height: 60vh;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    height: 20vh;
+}
+
+.card-title {
+    margin-top: .5rem;
+}
+
 /* .card-container img {
     width: 75%;
 } */
@@ -110,5 +123,22 @@ blockquote {
         font-size: 3vw !important;
     }
 
+    .card-text {
+        height: 22vh;
+    }
 
+}
+
+@media screen and (max-width:767px) {
+    .card-text {
+        height: 15vh;
+    }
+
+    #index-begin .col-md-4 {
+        width: 400px !important;
+    }
+
+    .card-title {
+        margin-top: 1rem;
+    }
 }
