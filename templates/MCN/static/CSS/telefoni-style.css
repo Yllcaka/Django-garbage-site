@@ -34,6 +34,10 @@
     border-color: transparent;
 }
 
+#float-phone3 .blue-list {
+    padding-left: 30px;
+}
+
 @media screen and(max-width:767px) {
     #float-phone .row {
         display: flex !important;
