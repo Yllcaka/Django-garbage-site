@@ -5,9 +5,11 @@
     scroll-behavior: smooth;
 }
 
-ul,div {
+ul,
+div {
     list-style-type: none;
 }
+
 a {
     text-decoration: none !important;
 }
@@ -424,7 +426,6 @@ div.dropdown ul li a {
 
 div.dropdown ul li a:hover {
     display: block;
-    /* background: #3498db !important; */
     color: #fff !important;
 }
 
@@ -451,6 +452,13 @@ div.dropdown ul li a:hover {
 } */
 
 /*DERI QITU  */
+.drop.active li a {
+    color: #34495e !important;
+}
+
+.drop.active li.active a {
+    color: rgb(24, 169, 253) !important;
+}
 
 @media screen and (max-width:767px) {
     .dropdown-menu {
@@ -467,6 +475,12 @@ div.dropdown ul li a:hover {
         width: 15%;
         transition: width .5s;
     }
+
+    /* 
+    .dropdown .nav-item:hover::after,
+    .dropdown .active::after {
+        width: 178px !important;
+    } */
 
     .navbar-toggler {
         display: block;
