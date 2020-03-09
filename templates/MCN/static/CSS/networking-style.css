@@ -50,7 +50,7 @@
 }
 
 .carded .card-body {
-    height: 60vh;
+    height: 60vh !important;
     margin-bottom: 10px;
 }
 
