@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="faa8008b-1713-4160-a625-b7e8f61a84ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djcontact/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djcontact/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +96,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="278" y="32" width="806" height="674" key="#Inspections/0.0.1366.738@0.0.1366.738" timestamp="1583467614703" />
+    <state x="419" y="176" width="523" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583834955893">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="419" y="176" width="523" height="385" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1583834955893" />
     <state x="466" y="128" width="430" height="481" key="FileChooserDialogImpl" timestamp="1583470310051">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -123,6 +128,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="366" y="198" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1583676992099" />
+    <state x="367" y="0" width="647" height="738" key="find.popup" timestamp="1583836137960">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="367" y="0" width="647" height="738" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1583836137960" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1583467572864">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
