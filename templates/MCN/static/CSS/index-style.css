@@ -6,6 +6,34 @@
     font-weight: bold;
 }
 
+.item1 {
+    background-image: url("../Images/banner.jpg");
+    background-size: cover;
+    height: 40vw;
+}
+
+.item2 {
+    background-image: url("../Images/banner1.jpg");
+    background-size: cover;
+    height: 40vw;
+}
+
+.item3 {
+    background-image: url("../Images/ethernet.png");
+    background-size: cover;
+    height: 40vw;
+}
+
+.greeting {
+    padding-top: 15%;
+    color: #147cb3;
+    font-weight: 700;
+    -webkit-text-stroke-width: 3px;
+    background: ;
+    -webkit-text-stroke-color: white;
+    font-size: 8vw;
+}
+
 .card-container {
     height: 200px;
 }
